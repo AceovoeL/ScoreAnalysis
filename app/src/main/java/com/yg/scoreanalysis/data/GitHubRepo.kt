@@ -14,12 +14,12 @@ object GitHubRepo {
 
     /**
      * 国内镜像前缀，按顺序尝试；镜像同样可代理 api.github.com 与 release 资产地址。
-     * 全部失败后会回退到官方地址直连。
+     * 顺序按实测可用性排列，全部失败后回退官方地址直连。
      */
     val MIRRORS = listOf(
-        "https://ghfast.top/",
         "https://gh-proxy.com/",
-        "https://ghproxy.net/",
-        "https://mirror.ghproxy.com/",
+        "https://ghproxy.cfd/",
+        "https://gh-proxy.net/",
+        "https://ghfast.top/",
     )
 }

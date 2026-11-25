@@ -71,7 +71,7 @@
 - 启动时自动检查 GitHub Releases，发现比当前版本更高的版本时弹出更新说明（即该 release 的正文）
 - 更新说明里可直接「下载更新」，下载完成自动拉起系统安装器；也可点「查看页面」在浏览器打开 release
 - 首次启动检查失败不打扰使用，只在设置页手动检查时才提示失败原因
-- 下载优先走国内镜像（ghfast.top / gh-proxy.com / ghproxy.net / mirror.ghproxy.com），全部不可用时回退官方地址
+- 下载优先走国内镜像（gh-proxy.com / ghproxy.cfd / gh-proxy.net / ghfast.top），全部不可用时回退官方地址
 - 下载后会校验文件大小与 ZIP 头，避免把错误页面当成安装包
 - 设置页显示当前版本号，并提供「检查更新」按钮
 
