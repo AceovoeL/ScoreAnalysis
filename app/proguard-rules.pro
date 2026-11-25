@@ -1,0 +1,4 @@
+-keepattributes *Annotation*, InnerClasses
+-dontnote kotlinx.serialization.**
+-keepclassmembers class com.yg.scoreanalysis.data.** { *** Companion; }
+-keepclasseswithmembers class com.yg.scoreanalysis.data.** { kotlinx.serialization.KSerializer serializer(...); }

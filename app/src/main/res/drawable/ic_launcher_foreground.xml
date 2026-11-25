@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 三根圆角柱：象征成绩对比 -->
+    <path
+        android:pathData="M34,74 L34,58 Q34,54 38,54 L42,54 Q46,54 46,58 L46,74 Q46,78 42,78 L38,78 Q34,78 34,74 Z"
+        android:fillAlpha="0.55">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient android:startY="54" android:endY="78" android:type="linear">
+                <item android:offset="0" android:color="#FF8FB4FF" />
+                <item android:offset="1" android:color="#FF6C8CFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M50,74 L50,44 Q50,40 54,40 L58,40 Q62,40 62,44 L62,74 Q62,78 58,78 L54,78 Q50,78 50,74 Z"
+        android:fillAlpha="0.8">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient android:startY="40" android:endY="78" android:type="linear">
+                <item android:offset="0" android:color="#FFFFFFFF" />
+                <item android:offset="1" android:color="#FFB9C9FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M66,74 L66,32 Q66,28 70,28 L74,28 Q78,28 78,32 L78,74 Q78,78 74,78 L70,78 Q66,78 66,74 Z">
+        <aapt:attr xmlns:aapt="http://schemas.android.com/aapt" name="android:fillColor">
+            <gradient android:startY="28" android:endY="78" android:type="linear">
+                <item android:offset="0" android:color="#FFFFD98A" />
+                <item android:offset="1" android:color="#FFE8B458" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 上升趋势线 -->
+    <path
+        android:pathData="M28,66 C40,60 46,50 56,44 C64,39 72,34 82,28"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeAlpha="0.9" />
+
+    <!-- 趋势线端点 -->
+    <path
+        android:pathData="M82,28 m-3.4,0 a3.4,3.4 0 1,0 6.8,0 a3.4,3.4 0 1,0 -6.8,0"
+        android:fillColor="#FFFFD98A" />
+</vector>
